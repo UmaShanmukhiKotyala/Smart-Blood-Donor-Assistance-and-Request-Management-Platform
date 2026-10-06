@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.receiver-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #b71c1c, #e53935);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.receiver-card {
+  background: white;
+  width: 420px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.receiver-card h1 {
+  color: #d32f2f;
+  text-align: center;
+}
+
+.receiver-card p {
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.receiver input,
+.receiver-card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.receiver-card button {
+  width: 100%;
+  padding: 14px;
+  background: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.receiver-card button:hover {
+  background: #b71c1c;
+}
